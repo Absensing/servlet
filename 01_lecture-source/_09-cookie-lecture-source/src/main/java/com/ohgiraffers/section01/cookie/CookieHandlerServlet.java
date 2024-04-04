@@ -9,7 +9,7 @@ import jakarta.servlet.http.HttpServletResponse;
 
 import java.io.IOException;
 
-@WebServlet
+@WebServlet("/cookie")
 public class CookieHandlerServlet extends HttpServlet {
 
     @Override
